@@ -1,0 +1,29 @@
+.RIT_Cal tr td
+{
+  text-align: center !important;
+  padding: 0;
+}
+.RIT_Cal
+{
+  padding: 0;
+}
+.prev11,.next11
+{
+  cursor: pointer;
+}
+.prev11:hover,.next11:hover
+{
+  opacity: 0.7;
+}
+.week_day11
+{
+  cursor: default;
+}
+.week_day11:hover
+{
+  opacity: 0.7;
+}
+.without1,.month11,.title_name1
+{
+  cursor: default;
+}

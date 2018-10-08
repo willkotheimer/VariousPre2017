@@ -1,0 +1,202 @@
+/*
+
+Template Name: San Jose Fiesta This One
+
+*/
+
+
+body {background-color:black;}
+.top0 {background-color: #ffffff; color: #ac181f; height:60px;}
+.topborder {background-color: #ffffff; height: 10px; border-top: 1px solid #7971a8;}
+.top1 {background-color: #63c5c4; height:90px; width:100%;}
+.top1 img {
+    
+    padding-top: 10px;
+}
+.top2 {background-color: #be4b50; background-color: #ac181f; height:60px; width:100%; color: white; font-size: 36px; 
+	font-family: 'Alfa Slab One', Arial, sans-serif;}
+.top2 span {position: relative; top: 10px;margin-left: 1%;}
+
+.navigation ul {color: #ac181f; font-family: "Khand", Arial; font-size: 26px; bottom:12px; margin-right: 25px; float:right;}
+.navigation  ul li {color: #ac181f; margin-right:12px; float:left; list-style-type:none;}
+.socialtags {
+    float: left;
+    margin-bottom: -10px;
+}
+.socialtags ul {float:right; margin-right:35px; bottom:12px;}
+.socialtags ul li {float:left; margin-right:10px; list-style-type: none; height:30px; width: auto;}
+.mainimage { 
+  background: url(images/main.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 502px;
+}
+
+.twitter-roll {position: relative; top: 20px; height:400px;width:220px; color:#ffffff; float:right; margin-top:20px;margin-right:80px; padding:10px;}
+.twitter-roll div {position: relative; background-color: #be4b50; height:360px; width:180px; padding:20px;opacity: 0.7;
+    filter: alpha(opacity=70); }
+
+.twitter-roll span.news {
+	z-index: 5; position: absolute; top: 5px; padding-left:5px; width: 90%; margin: 0 auto;
+}
+.twitter-roll span.news h1.twitter{ font-size: 24px; font-family: 'Alfa Slab One', Arial, sans-serif; color:#ffffff;opacity: 1;
+    filter: alpha(opacity=100);}
+.twitter-roll span.news p.twitter{ z-index: 5; font-size: 15px; font-family: 'Alfa Slab One', Arial, sans-serif;color:#ffffff;opacity: 1;
+    filter: alpha(opacity=1);}
+.twitter-roll span.news h1.blogroll {z-index: 5; font-size: 24px; font-family: 'Alfa Slab One', Arial, sans-serif; color:#ffffff;opacity: 1;
+    filter: alpha(opacity=100);}
+.twitter-roll span.news p.blogroll { z-index: 5; font-size: 15px; font-family: 'Alfa Slab One', Arial, sans-serif;color:#ffffff;opacity: 1;
+    filter: alpha(opacity=1);}
+
+
+
+	.importantinfo {position: relative;}
+	.importantsections { position: absolute; top:0px;}
+    .yellowline {background-color: #ffc028; height:15px; width:100%;}
+    .greenbackground {background-color: #8dc63f; height: 362px; width:100%;}
+    .infosections ul {margin-left: 5%; margin-right: 5%; margin-top:-39px;}
+
+    .infosections ul li {
+    float: left;
+    margin-right: 20px;
+    list-style-type: none;}
+
+    .white {background-color:white; }
+    .section1, .section2, .section3 {
+    	width:290px; height:216px; background-color: #ffffff;
+    }
+    .section1 img {margin-top:15px; padding-left: 20px; margin-right: 20px; width:250px; height: auto;}
+    .section2 img { margin-top:15px;padding-left: 20px; margin-right: 20px; width:250px; height: auto;}
+    .section3 div { padding-top:5px;margin-right: 20px; width:250px; height: 160px; padding-left:20px; height:185px;
+    	font-family: "Khand", Arial, sans-serif; font-size: 18px; color: #ac181f;;}
+    .creditcards { height: 220px;  background-color:#63c5c4; margin-top:25px;margin-left: 10px;width:260px;  
+    	position: relative; bottom: 10px;}
+   .creditcards ul li { float:left; margin-left: -40px; }
+   .creditcards ul li img {margin-right:29px;}
+   
+   /*wood section */
+
+.woodbackground {
+	background: url(images/woodbackground.png) no-repeat center center; 
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 492px;
+  padding: 20px;
+
+}
+@media only screen and (max-width: 1000px) {
+   .show { display:block !important;}
+   .section3, .white {
+    margin-top: 100px !important;
+    margin-left: 0px !important;
+    clear:both; 
+}
+   }
+@media only screen and (max-width: 930px) {
+   .show { display:block !important;}
+  
+  
+
+   
+
+   .socialtags ul li img { padding-top: 5px;height: 70% !important; width: auto;
+   	}
+   .navigation ul {font-size:18px;}
+   .celebratesecondimg {margin-left: 0px; margin-bottom: 10px;}
+
+   .image-section ul li {margin-left:-5px; padding-bottom: 10px;}
+}
+
+@media only screen and (max-width:699px) {
+.module2 {float:left !important; margin-left:5% !important;}
+
+.module3 {float:left !important; margin-left:5% !important;}
+.section1 {display:inline-block; margin-top:50px;}
+
+.top1 img { padding-top: 20px; height: 60% !important; width: auto; margin-left:5% !important;-webkit-transition: all 1s ease-in-out;
+ 	 -moz-transition: all 1s ease-in-out;
+ 	 -o-transition: all 1s ease-in-out;
+ 	 transition: all 1s ease-in-out;}
+   .top2 span { font-size: 20px !important; margin-left:5% !important;position: relative; top: 5px !important;-webkit-transition: all 1s ease-in-out;
+ 	 -moz-transition: all 1s ease-in-out;
+ 	 -o-transition: all 1s ease-in-out;
+ 	 transition: all 1s ease-in-out;}
+ 	 
+.subMenu .inner a {
+    font-size: 18px !important;
+    margin-right: -10px !important;
+    padding-right:10px;
+     padding-left:10px;
+	-webkit-transition: all 1s ease-in-out;
+ 	 -moz-transition: all 1s ease-in-out;
+ 	 -o-transition: all 1s ease-in-out;
+ 	 transition: all 1s ease-in-out;}
+}
+@media only screen and (max-width: 450px) {
+
+
+     .show2 { display:block !important;}
+  .woodbackground {
+	
+  	padding: 0px;
+
+		}
+	.celebratesecondimg {margin-left: 0px; margin-bottom: 10px;}
+    .celebratethirdimg {margin-left: 0px;}
+   
+
+
+}
+
+@media only screen and (max-width: 430px) {
+.image-section ul li {margin-left:-38px !important; }
+.woodbackground ul {margin-left:-15px !important; }
+
+}
+
+.contain-celebration { padding-top:20px;}
+.woodbackground ul {float: left;}
+.woodbackground ul li {list-style-type: none;}
+.celebrate1 {line-height:36px; font-size: 36px; font-family: "Fira Mono";}
+.celebrate2 {line-height:61px; font-size: 61px; font-family: "Mrs Saint Delafield"; color:#ffffff;}
+.celebrate3 {line-height:36px; font-size: 36px; font-family: "Bowlby One"; color: #f30401;}
+.celebrate4 {line-height:40px; font-size: 40px; font-family: "Amatic SC"; color: #ffffff;}
+
+.celebratesecondimg {float: left; margin-left: 38px;}
+
+.celebratethirdimg {float: left; margin-left: 38px;}
+
+.celebrate5 { padding-left: 10px; width:90%;color: #ffffff; padding-left: 5%; padding-top: 10px; clear: both; font-family: Arial; font-size: 24px; }
+
+/*menu bar */
+
+.menubar {text-align:center;color: #ac181f; font-family: 'Alfa Slab One', Arial, sans-serif; font-size: 36px; background-color: #f06eaa;}
+.aboutus {text-align:center;color: #ac181f; font-family: 'Alfa Slab One', Arial, sans-serif; font-size: 36px; background-color: #8dc63f;}
+.contact {text-align:center;color: #ac181f; font-family: 'Alfa Slab One', Arial, sans-serif; font-size: 36px; background-color: #ffc028;}
+.menu {margin:0 auto; padding-top: 20px;}
+.module {width: 300px;}
+.image-section {float:left;}
+.image-section ul li {list-style-type: none; float:left; margin-left:19px;}
+.infosection {max-width:360px; float:right;}
+.menu-teaser {margin-left:3%; margin-right:3%; max-width:1024px;float:left;}
+.menudownload {
+    clear: both;
+    float: right;}
+.module1 {clear:both; float:left; margin-left:5%;}
+.module2 {float: right;margin-right:5%;}
+.module1R2 {clear:both; float: left;margin-left:5%;}
+.module3 {float: right;margin-right:5%;}
+.authentic {font-family: "Amatic SC"; font-size:53px; color: #ac181f; line-height:100px;}
+.claim {font-size: 22px; font-family: 'Alfa Slab One', Arial, sans-serif; color:#000000;line-height:24px;}
+.testimonial {font-size:22px; font-family: Helvetica; color: #000000;line-height:24px;}
+.menu h1 {font-family:'Kameron';font-size:36px;line-height:36px;}
+.menu h2 {font-family:'Kameron';font-size:24px;line-height:24px;}
+.menu h3 {color: #ac181f; font-size: 14px; font-family:"Crete Round";}
+.section1 {margin-top:50px;}
+.section3, .white {margin-top:70px;margin-left:200px;}
+
+
