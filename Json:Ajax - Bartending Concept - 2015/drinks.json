@@ -1,0 +1,25 @@
+
+
+
+{"drink":[
+    {
+        "name":"Manhatten",
+        "ingredients":[{"0":"Maraschino cherry", "1":"Bitters", "2":"Canadian whisky", "3":"Sweet Vermouth"}]},
+
+        {
+        "name":"Bahama Mama",
+            "ingredients":[{"0":"1/2 fluid ounce rum", "1":"1/2 fluid ounce coconut-flavored rum", "2":"1/2 fluid ounce grenadine syrup", "3":"1 fluid ounce orange juice",
+            "4":"1 fluid ounce pineapple juice","5":"1 cup crushed ice"}]},
+        {
+            "name":"Cosmopolitan",
+                    "ingredients":[{"0":"1 cup raspberry vodka", "1":"1/2 cup triple sec", "2":"1/2 cup sweetened lime juice", "3":"3 cups cran-raspberry juice", "4":"1 lime sliced"}]},
+        {
+              "name":"Mojito",
+                        "ingredients":[{"0":" 1 1/2 oz White rum", "1":"6 leaves of Mint", "2":"Soda Water", "3":"1 oz Fresh lime juice", "4":"2 tablespoons sugar"}]},
+
+        {
+              "name":"Rum Sour",
+                        "ingredients":[{"0":"2 ounces rum", "1":"2/3 ounce lemon juice", "2":"1/2 teaspoon superfine sugar"}
+                        ]}
+
+]}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<head>
+
+<style type="text/css">
+
+.inactive {color:white !important;}
+.drinks  {font-size:50px; position: absolute; left: 25%; padding: 10px;  width:50%; background-color: white;}
+#ingredients {font-size: 22px;}
+.button {width: 80px; height: 60px;}
+@media screen and (max-width: 480px) {
+    .drinks {left: 0 !important; width: 100% !important; padding: 2% 2%; box-sizing: border-box;}
+}
+body {background-color: rgba(0,0,0,.5);}
+
+</style>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script>
+
+$(function(){
+		current=0; //kick it off;
+
+
+		//previous
+		$("#previous").click(function(event){
+			event.preventDefault();
+			current--;
+			getone(); 
+		});
+		//next
+		$("#next").click(function(event){
+			event.preventDefault();
+			current++;
+			getone();
+			 
+		});
+
+		//
+		$("#show").click(function(event){
+			event.preventDefault();
+			$('#ingredients').show();
+		});
+		$("#hide").click(function(event){
+			event.preventDefault();
+			$('#ingredients').hide();
+		});
+
+
+
+});
+
+		
+
+function getone() {
+var json = $.getJSON( "drinks.json", function() {
+		if (json.responseJSON.drink.length-1 >=current && current>=0) {
+	//for (var i=0; i<=json.responseJSON.drink.length-1; i++) {
+				string="Your current drink:<br/><div id='drink"+current+"'><br/><u>"+json.responseJSON.drink[current].name+"</u><br/><div id='ingredients'>";
+				
+				$.each(json.responseJSON.drink[current].ingredients[0], function (index, value) {
+		  		string+="<br/>"+value;
+					});
+				string+="</div></div><br/>";
+		 		
+		 		$(".drinks").empty();
+				$(".drinks").append(string);
+
+		}
+		if (current < 0) { $("#previous").hide();} else {$("#previous").show();}
+		if (current >= json.responseJSON.drink.length-1) { $("#next").hide();} else {$("#next").show();}
+
+});
+}
+
+ 
+
+
+
+
+
+</script>
+
+</head>
+
+<body>
+<div class="wrapper">
+<div class="buttons">
+<div class="button" id="previous">previous</div><div class="button" id="next">next</div><div class="button" id="show">show</div><div class="button" id="hide">hide</div></div>
+<div class="drinks">
+	Your current drink:
+
+</div>
+
+</div>
+
+</body>
+
+
+
+</html>
